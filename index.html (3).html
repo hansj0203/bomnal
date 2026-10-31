@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>봄날 부동산 AI 추천 매물 보고서</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+    body { font-family: 'Pretendard', sans-serif; background-color: #f8fafc; color: #0f172a; }
+  </style>
+</head>
+<body class="p-6 md:p-12 max-w-5xl mx-auto space-y-8">
+  <header class="border-b border-slate-200 pb-6 flex justify-between items-center">
+    <div>
+      <h1 class="text-2xl font-black text-emerald-800 flex items-center gap-2">
+        <i class="fa-solid fa-building"></i> 봄날 공인중개사사무소 AI 매물 추천서
+      </h1>
+      <p class="text-xs text-slate-500 mt-1">발행일: 2026. 11. 1. | 담당 중개사 작성</p>
+    </div>
+    <div class="text-right">
+      <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">AI Verified Report</span>
+    </div>
+  </header>
+
+  <section class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+    <h2 class="text-sm font-bold text-slate-800 flex items-center gap-2">
+      <i class="fa-solid fa-filter text-emerald-600"></i> 적용된 맞춤 조건
+    </h2>
+    <div class="flex flex-wrap gap-2 text-xs">
+      <span class="bg-slate-100 font-semibold px-3 py-1 rounded-lg">보증금 500만원 이하</span>
+      <span class="bg-slate-100 font-semibold px-3 py-1 rounded-lg">월세 40만원 이하</span>
+      <span class="bg-slate-100 font-semibold px-3 py-1 rounded-lg">선호 방향: 전체</span>
+      <span class="bg-slate-100 font-semibold px-3 py-1 rounded-lg">지역: 청주시 사창동</span>
+    </div>
+  </section>
+
+  <section class="space-y-4">
+    <h2 class="text-base font-extrabold text-slate-900">AI 추천 매물 목록 (2건)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col justify-between">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80" alt=" 사창동 충북대 정문 신축 원룸" class="w-full h-48 object-cover" />
+          <div class="p-5 space-y-3">
+            <div class="flex justify-between items-center text-xs text-slate-500">
+              <span>원룸 · 23.1㎡ (7평)</span>
+              <span class="text-emerald-700 font-bold">거래가능</span>
+            </div>
+            <h3 class="font-bold text-slate-900"> 사창동 충북대 정문 신축 원룸</h3>
+            <div class="text-lg font-black text-emerald-800">
+              월세 500 / 40만원 <span class="text-xs text-slate-500 font-normal">(관리비 5만)</span>
+            </div>
+            <div class="bg-emerald-50 p-3 rounded-xl text-xs text-emerald-950 border border-emerald-100">
+              <strong>AI 추천 사유:</strong> 고객 예산 범위(500/40)에 완벽 부합하며, 남향 원룸으로 희망하신 채광 조건을 100% 만족합니다.
+            </div>
+          </div>
+          <div class="px-5 py-3 bg-slate-50 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>방향: 남향 (채광 우수)</span>
+            <span>전세대출 가능</span>
+          </div>
+        </div>
+      
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col justify-between">
+          <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=600&q=80" alt=" 개신동 조용하고 쾌적한 분리형 원룸" class="w-full h-48 object-cover" />
+          <div class="p-5 space-y-3">
+            <div class="flex justify-between items-center text-xs text-slate-500">
+              <span>원룸 · 26.4㎡ (8평)</span>
+              <span class="text-emerald-700 font-bold">거래가능</span>
+            </div>
+            <h3 class="font-bold text-slate-900"> 개신동 조용하고 쾌적한 분리형 원룸</h3>
+            <div class="text-lg font-black text-emerald-800">
+              월세 300 / 38만원 <span class="text-xs text-slate-500 font-normal">(관리비 4만)</span>
+            </div>
+            <div class="bg-emerald-50 p-3 rounded-xl text-xs text-emerald-950 border border-emerald-100">
+              <strong>AI 추천 사유:</strong> 가성비가 뛰어나며 조용한 주택가 위치, 즉시 입주 가능한 청결한 매물입니다.
+            </div>
+          </div>
+          <div class="px-5 py-3 bg-slate-50 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>방향: 남서향</span>
+            <span>대출 불가</span>
+          </div>
+        </div>
+      
+    </div>
+  </section>
+
+  <footer class="text-center text-xs text-slate-400 border-t border-slate-200 pt-6">
+    봄날 공인중개사사무소 | 충북 청주시 서원구 사창동 | 문의: 043-123-4567
+  </footer>
+</body>
+</html>
